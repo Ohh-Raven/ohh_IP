@@ -1,10 +1,6 @@
-# Author : Offensive Hacker (https://github.com/Ohh-Raven)
-# OhMyZsh theme for CTFs (Capture The Flag)
-# Show the tun0/VPN IP address
-
 PROMPT='
-┌─[%F{blue} %~%f] [%F{green} $(get_ip_address)%f ] $(git_prompt_info)
-└─➜ '
+┌─[%F{blue} %~%f] 𖤍  [%F{green} $(get_ip_address)%f ] $(git_prompt_info)
+└─%F{yellow}𓂀  %f '
 
 RPROMPT='[%F{red}%?%f]'
 
@@ -17,4 +13,3 @@ get_ip_address() {
     echo "%{$fg[red]%}No IP%{$reset_color%}"
   fi
 }
-
