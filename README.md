@@ -1,5 +1,5 @@
 # Ohh_IP - OhMyZsh Theme for CTFs
-A Oh-My-Zsh theme for CTFs
+A theme designed for CTFs (Capture The Flag) Challenges. Includes decorators for ip address and git status.
 
 ## Overview / Screenshot
 ![Demo-SC](demo-shell.png)
